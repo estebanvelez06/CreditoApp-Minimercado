@@ -1,0 +1,28 @@
+
+# Clave secreta de autenticación
+.creditoapp_secret
+
+# Base de datos
+creditoapp.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Copias de seguridad
+backups/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+venv/
+.venv/
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

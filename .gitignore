@@ -1,0 +1,30 @@
+
+# Base de datos y copias de seguridad
+backend/creditoapp.db
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/backups/
+
+# Claves y configuraciones privadas
+backend/.creditoapp_secret
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
